@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Supermarker_mvp
+namespace Supermarker_mvp.Views
 {
-    public partial class Form1 : Form
+    public partial class PayModelView : Form
     {
-        public Form1()
+        public PayModelView()
         {
             InitializeComponent();
         }

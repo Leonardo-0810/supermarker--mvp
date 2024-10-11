@@ -7,3 +7,6 @@ C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker-mvp.csproj.Gen
 C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker-mvp.csproj.CoreCompileInputs.cache
 C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker-mvp.exe
 C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker-mvp.pdb
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker_mvp.Views.PayModelView.resources
+C:\Users\santy\source\repos\Supermarker-mvp\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermar.057CF32B.Up2Date
