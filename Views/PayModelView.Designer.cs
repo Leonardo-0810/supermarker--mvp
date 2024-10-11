@@ -33,23 +33,23 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPagePayModeList = new System.Windows.Forms.TabPage();
+            this.BtnClose = new System.Windows.Forms.Button();
+            this.BtnNew = new System.Windows.Forms.Button();
+            this.BtnEdit = new System.Windows.Forms.Button();
+            this.BtnDelete = new System.Windows.Forms.Button();
             this.DgPayMode = new System.Windows.Forms.DataGridView();
             this.BtnSearch = new System.Windows.Forms.Button();
             this.TxtSearch = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPagePayModeDetail = new System.Windows.Forms.TabPage();
-            this.TxtPayModeId = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.TxtPayModeName = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.BtnCancel = new System.Windows.Forms.Button();
+            this.BtnSave = new System.Windows.Forms.Button();
             this.TxtPayModeObservation = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.BtnSave = new System.Windows.Forms.Button();
-            this.BtnCancel = new System.Windows.Forms.Button();
-            this.BtnDelete = new System.Windows.Forms.Button();
-            this.BtnEdit = new System.Windows.Forms.Button();
-            this.BtnNew = new System.Windows.Forms.Button();
-            this.BtnClose = new System.Windows.Forms.Button();
+            this.TxtPayModeName = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.TxtPayModeId = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -116,6 +116,42 @@
             this.tabPagePayModeList.Text = "Pay Mode List";
             this.tabPagePayModeList.UseVisualStyleBackColor = true;
             // 
+            // BtnClose
+            // 
+            this.BtnClose.Location = new System.Drawing.Point(676, 226);
+            this.BtnClose.Name = "BtnClose";
+            this.BtnClose.Size = new System.Drawing.Size(75, 23);
+            this.BtnClose.TabIndex = 7;
+            this.BtnClose.Text = "Search";
+            this.BtnClose.UseVisualStyleBackColor = true;
+            // 
+            // BtnNew
+            // 
+            this.BtnNew.Location = new System.Drawing.Point(676, 61);
+            this.BtnNew.Name = "BtnNew";
+            this.BtnNew.Size = new System.Drawing.Size(75, 23);
+            this.BtnNew.TabIndex = 6;
+            this.BtnNew.Text = "Search";
+            this.BtnNew.UseVisualStyleBackColor = true;
+            // 
+            // BtnEdit
+            // 
+            this.BtnEdit.Location = new System.Drawing.Point(676, 120);
+            this.BtnEdit.Name = "BtnEdit";
+            this.BtnEdit.Size = new System.Drawing.Size(75, 23);
+            this.BtnEdit.TabIndex = 5;
+            this.BtnEdit.Text = "Search";
+            this.BtnEdit.UseVisualStyleBackColor = true;
+            // 
+            // BtnDelete
+            // 
+            this.BtnDelete.Location = new System.Drawing.Point(676, 169);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Size = new System.Drawing.Size(75, 23);
+            this.BtnDelete.TabIndex = 4;
+            this.BtnDelete.Text = "Search";
+            this.BtnDelete.UseVisualStyleBackColor = true;
+            // 
             // DgPayMode
             // 
             this.DgPayMode.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -167,37 +203,23 @@
             this.tabPagePayModeDetail.Text = "Pay Mode Detail";
             this.tabPagePayModeDetail.UseVisualStyleBackColor = true;
             // 
-            // TxtPayModeId
+            // BtnCancel
             // 
-            this.TxtPayModeId.Location = new System.Drawing.Point(21, 36);
-            this.TxtPayModeId.Name = "TxtPayModeId";
-            this.TxtPayModeId.Size = new System.Drawing.Size(100, 20);
-            this.TxtPayModeId.TabIndex = 3;
+            this.BtnCancel.Location = new System.Drawing.Point(131, 249);
+            this.BtnCancel.Name = "BtnCancel";
+            this.BtnCancel.Size = new System.Drawing.Size(75, 23);
+            this.BtnCancel.TabIndex = 9;
+            this.BtnCancel.Text = "button2";
+            this.BtnCancel.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // BtnSave
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Pay Mode Id";
-            // 
-            // TxtPayModeName
-            // 
-            this.TxtPayModeName.Location = new System.Drawing.Point(21, 83);
-            this.TxtPayModeName.Name = "TxtPayModeName";
-            this.TxtPayModeName.Size = new System.Drawing.Size(100, 20);
-            this.TxtPayModeName.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(18, 67);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Pay Mode Name";
+            this.BtnSave.Location = new System.Drawing.Point(21, 249);
+            this.BtnSave.Name = "BtnSave";
+            this.BtnSave.Size = new System.Drawing.Size(75, 23);
+            this.BtnSave.TabIndex = 8;
+            this.BtnSave.Text = "button1";
+            this.BtnSave.UseVisualStyleBackColor = true;
             // 
             // TxtPayModeObservation
             // 
@@ -216,68 +238,46 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Pay Mode Observation";
             // 
-            // BtnSave
+            // TxtPayModeName
             // 
-            this.BtnSave.Location = new System.Drawing.Point(21, 249);
-            this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(75, 23);
-            this.BtnSave.TabIndex = 8;
-            this.BtnSave.Text = "button1";
-            this.BtnSave.UseVisualStyleBackColor = true;
+            this.TxtPayModeName.Location = new System.Drawing.Point(21, 83);
+            this.TxtPayModeName.Name = "TxtPayModeName";
+            this.TxtPayModeName.Size = new System.Drawing.Size(100, 20);
+            this.TxtPayModeName.TabIndex = 5;
             // 
-            // BtnCancel
+            // label4
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(131, 249);
-            this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.Size = new System.Drawing.Size(75, 23);
-            this.BtnCancel.TabIndex = 9;
-            this.BtnCancel.Text = "button2";
-            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(18, 67);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Pay Mode Name";
             // 
-            // BtnDelete
+            // TxtPayModeId
             // 
-            this.BtnDelete.Location = new System.Drawing.Point(676, 169);
-            this.BtnDelete.Name = "BtnDelete";
-            this.BtnDelete.Size = new System.Drawing.Size(75, 23);
-            this.BtnDelete.TabIndex = 4;
-            this.BtnDelete.Text = "Search";
-            this.BtnDelete.UseVisualStyleBackColor = true;
+            this.TxtPayModeId.Location = new System.Drawing.Point(21, 36);
+            this.TxtPayModeId.Name = "TxtPayModeId";
+            this.TxtPayModeId.Size = new System.Drawing.Size(100, 20);
+            this.TxtPayModeId.TabIndex = 3;
             // 
-            // BtnEdit
+            // label3
             // 
-            this.BtnEdit.Location = new System.Drawing.Point(676, 120);
-            this.BtnEdit.Name = "BtnEdit";
-            this.BtnEdit.Size = new System.Drawing.Size(75, 23);
-            this.BtnEdit.TabIndex = 5;
-            this.BtnEdit.Text = "Search";
-            this.BtnEdit.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(18, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(67, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Pay Mode Id";
             // 
-            // BtnNew
-            // 
-            this.BtnNew.Location = new System.Drawing.Point(676, 61);
-            this.BtnNew.Name = "BtnNew";
-            this.BtnNew.Size = new System.Drawing.Size(75, 23);
-            this.BtnNew.TabIndex = 6;
-            this.BtnNew.Text = "Search";
-            this.BtnNew.UseVisualStyleBackColor = true;
-            // 
-            // BtnClose
-            // 
-            this.BtnClose.Location = new System.Drawing.Point(676, 226);
-            this.BtnClose.Name = "BtnClose";
-            this.BtnClose.Size = new System.Drawing.Size(75, 23);
-            this.BtnClose.TabIndex = 7;
-            this.BtnClose.Text = "Search";
-            this.BtnClose.UseVisualStyleBackColor = true;
-            // 
-            // PayModeView
+            // PayModelView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
-            this.Name = "PayModeView";
+            this.Name = "PayModelView";
             this.Text = "Pay\r\nMode Management";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
