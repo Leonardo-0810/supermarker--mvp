@@ -1,0 +1,9 @@
+C:\Users\santy\source\repos\Supermarker-mvp\bin\Debug\Supermarker-mvp.exe.config
+C:\Users\santy\source\repos\Supermarker-mvp\bin\Debug\Supermarker-mvp.exe
+C:\Users\santy\source\repos\Supermarker-mvp\bin\Debug\Supermarker-mvp.pdb
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker-mvp.csproj.AssemblyReference.cache
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker_mvp.Properties.Resources.resources
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker-mvp.csproj.GenerateResource.cache
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker-mvp.csproj.CoreCompileInputs.cache
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker-mvp.exe
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker-mvp.pdb
