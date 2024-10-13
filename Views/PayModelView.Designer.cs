@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPagePayModeList = new System.Windows.Forms.TabPage();
@@ -50,12 +49,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.TxtPayModeId = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPagePayModeList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgPayMode)).BeginInit();
             this.tabPagePayModeDetail.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -68,20 +68,10 @@
             this.panel1.Size = new System.Drawing.Size(800, 100);
             this.panel1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Supermarker_mvp.Properties.Resources.buy;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(215, 48);
+            this.label1.Location = new System.Drawing.Point(158, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 1;
@@ -274,6 +264,16 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Pay Mode Id";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Supermarker_mvp.Properties.Resources.buy;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(125, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // PayModelView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -285,13 +285,13 @@
             this.Text = "Pay\r\nMode Management";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPagePayModeList.ResumeLayout(false);
             this.tabPagePayModeList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgPayMode)).EndInit();
             this.tabPagePayModeDetail.ResumeLayout(false);
             this.tabPagePayModeDetail.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

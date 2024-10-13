@@ -36,6 +36,24 @@ namespace Supermarker_mvp.Views
             };
         }
 
+        private static PayModelView instance;
+
+        public static PayModelView GetInstance()
+        {
+            if (instance == null || instance.IsDisposed)
+            {
+                instance = new PayModelView();
+            }
+            else
+            {
+                if (instance.WindowState == FormWindowState.Minimized)
+                {
+                    instance.WindowState = FormWindowState.Normal;
+                }
+                instance.BringToFront();
+            }
+            return instance;
+        }
 
         public event EventHandler SearchEvent;
         public event EventHandler AddNewEvent;
