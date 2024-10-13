@@ -12,20 +12,30 @@ namespace Supermarker_mvp.Views
 {
     public partial class PayModelView : Form, IPayModeView
     {
+        private bool isEdit;
+        private bool isSuccessful;
+        private string message;
+
         public PayModelView()
         {
         InitializeComponent();
+        AssociateAndRaiseViewEvents();
+        tabControl1.TabPages.Remove(tabPagePayModeDetail);
+
         }
 
+        private void AssociateAndRaiseViewEvents()
+        {
+            BtnSearch.Click += delegate { SearchEvent?.Invoke(this, EventArgs.Empty); };
+            TxtSearch.KeyDown += (s, e) =>
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    SearchEvent?.Invoke(this, EventArgs.Empty);
+                }
+            };
+        }
 
-
-        public string PayModeId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string PayModeName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string PayModeObservation { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string SearchValue { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public bool IsEdit { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public bool IsSuccessful { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Message { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public event EventHandler SearchEvent;
         public event EventHandler AddNewEvent;

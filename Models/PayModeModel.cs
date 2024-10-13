@@ -23,6 +23,9 @@ public string Name { get; set; }
         [Required(ErrorMessage = "Pay mode observation is required")]
         [StringLength(200, MinimumLength = 3, ErrorMessage = "Pay mode observation must be between 3 and 200 characters")]
 public string Observation { get; set; }
+
+
     }
+
 }
 
