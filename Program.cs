@@ -23,9 +23,11 @@ namespace Supermarker_mvp
         static void Main()
         {
             string sqlConnectionString = Settings.Default.SqlConnection;
+            ICategoryView View = new CategoryView();
             IMainView view = new MainView();
             new MainPresenter(view, sqlConnectionString);
             Application.Run((Form)view);
+            
         }
     }
 }

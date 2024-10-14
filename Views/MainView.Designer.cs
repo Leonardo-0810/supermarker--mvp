@@ -32,12 +32,14 @@
             this.BtnExit = new System.Windows.Forms.Button();
             this.BtnPayMode = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnCategory = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.BtnCategory);
             this.panel1.Controls.Add(this.BtnExit);
             this.panel1.Controls.Add(this.BtnPayMode);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -78,6 +80,16 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // BtnCategory
+            // 
+            this.BtnCategory.BackgroundImage = global::Supermarker_mvp.Properties.Resources.buy;
+            this.BtnCategory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BtnCategory.Location = new System.Drawing.Point(0, 188);
+            this.BtnCategory.Name = "BtnCategory";
+            this.BtnCategory.Size = new System.Drawing.Size(200, 99);
+            this.BtnCategory.TabIndex = 3;
+            this.BtnCategory.UseVisualStyleBackColor = true;
+            // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -100,5 +112,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button BtnPayMode;
         private System.Windows.Forms.Button BtnExit;
+        private System.Windows.Forms.Button BtnCategory;
     }
 }

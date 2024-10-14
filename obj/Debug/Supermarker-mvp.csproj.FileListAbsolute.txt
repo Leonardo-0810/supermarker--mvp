@@ -84,3 +84,5 @@ C:\Users\santy\source\repos\Supermarker-mvp\bin\Debug\ru\Microsoft.Data.SqlClien
 C:\Users\santy\source\repos\Supermarker-mvp\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\santy\source\repos\Supermarker-mvp\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker_mvp.Views.MainView.resources
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker_mvp.Views.CategoryView.resources
+C:\Users\santy\source\repos\Supermarker-mvp\obj\Debug\Supermarker_mvp.Views.Form1.resources

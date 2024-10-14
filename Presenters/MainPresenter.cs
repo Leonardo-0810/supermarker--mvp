@@ -14,6 +14,7 @@ namespace Supermarker_mvp.Presenters
     internal class MainPresenter
     {
         private readonly IMainView mainView;
+        
         private readonly string sqlConnectionString;
 
         public MainPresenter(IMainView mainView, string sqlConnectionString)
@@ -21,14 +22,23 @@ namespace Supermarker_mvp.Presenters
             this.mainView = mainView;
             this.sqlConnectionString = sqlConnectionString;
             this.mainView.ShowPayModeView += ShowPayModeView;
+            this.mainView.ShowCategoryView += ShowCategoryView;
         }
 
-        
+
         private void ShowPayModeView(object sender, EventArgs e)
         {
             IPayModeView view = PayModelView.GetInstance((MainView)mainView);
             IPayModeRepository repository = new PayModeRepository(sqlConnectionString);
             new PayModePresenter(view, repository);
+        }
+
+
+        private void ShowCategoryView(object sender, EventArgs e)
+        {
+            ICategoryView view = CategoryView.GetInstance((MainView)mainView);
+            ICategoryRepository repository = new CategoryRepository(sqlConnectionString);
+            new CategoryPresenter(view, repository);
         }
     }
 }
