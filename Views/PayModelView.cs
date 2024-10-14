@@ -162,9 +162,6 @@ namespace Supermarker_mvp.Views
             get { return message; }
             set { message = value; }
         }
-
-        
-
     }
 
 }

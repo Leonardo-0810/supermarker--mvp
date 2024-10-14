@@ -119,41 +119,41 @@
             // BtnClose
             // 
             this.BtnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnClose.Location = new System.Drawing.Point(676, 226);
+            this.BtnClose.Image = global::Supermarker_mvp.Properties.Resources.cerrar;
+            this.BtnClose.Location = new System.Drawing.Point(676, 231);
             this.BtnClose.Name = "BtnClose";
-            this.BtnClose.Size = new System.Drawing.Size(75, 23);
+            this.BtnClose.Size = new System.Drawing.Size(75, 53);
             this.BtnClose.TabIndex = 7;
-            this.BtnClose.Text = "Search";
             this.BtnClose.UseVisualStyleBackColor = true;
             // 
             // BtnNew
             // 
             this.BtnNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnNew.Location = new System.Drawing.Point(676, 61);
+            this.BtnNew.Image = global::Supermarker_mvp.Properties.Resources._new;
+            this.BtnNew.Location = new System.Drawing.Point(676, 47);
             this.BtnNew.Name = "BtnNew";
-            this.BtnNew.Size = new System.Drawing.Size(75, 23);
+            this.BtnNew.Size = new System.Drawing.Size(75, 53);
             this.BtnNew.TabIndex = 6;
-            this.BtnNew.Text = "Search";
             this.BtnNew.UseVisualStyleBackColor = true;
             // 
             // BtnEdit
             // 
             this.BtnEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnEdit.Location = new System.Drawing.Point(676, 120);
+            this.BtnEdit.Image = global::Supermarker_mvp.Properties.Resources.edit;
+            this.BtnEdit.Location = new System.Drawing.Point(676, 106);
             this.BtnEdit.Name = "BtnEdit";
-            this.BtnEdit.Size = new System.Drawing.Size(75, 23);
+            this.BtnEdit.Size = new System.Drawing.Size(75, 55);
             this.BtnEdit.TabIndex = 5;
-            this.BtnEdit.Text = "Search";
             this.BtnEdit.UseVisualStyleBackColor = true;
             // 
             // BtnDelete
             // 
             this.BtnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnDelete.Location = new System.Drawing.Point(676, 169);
+            this.BtnDelete.Image = global::Supermarker_mvp.Properties.Resources.delete;
+            this.BtnDelete.Location = new System.Drawing.Point(676, 167);
             this.BtnDelete.Name = "BtnDelete";
-            this.BtnDelete.Size = new System.Drawing.Size(75, 23);
+            this.BtnDelete.Size = new System.Drawing.Size(75, 58);
             this.BtnDelete.TabIndex = 4;
-            this.BtnDelete.Text = "Search";
             this.BtnDelete.UseVisualStyleBackColor = true;
             // 
             // DgPayMode
@@ -219,20 +219,20 @@
             // 
             // BtnCancel
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(131, 249);
+            this.BtnCancel.Image = global::Supermarker_mvp.Properties.Resources.cancel;
+            this.BtnCancel.Location = new System.Drawing.Point(131, 237);
             this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.Size = new System.Drawing.Size(75, 23);
+            this.BtnCancel.Size = new System.Drawing.Size(78, 46);
             this.BtnCancel.TabIndex = 9;
-            this.BtnCancel.Text = "button2";
             this.BtnCancel.UseVisualStyleBackColor = true;
             // 
             // BtnSave
             // 
-            this.BtnSave.Location = new System.Drawing.Point(21, 249);
+            this.BtnSave.Image = global::Supermarker_mvp.Properties.Resources.save;
+            this.BtnSave.Location = new System.Drawing.Point(21, 237);
             this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(75, 23);
+            this.BtnSave.Size = new System.Drawing.Size(73, 46);
             this.BtnSave.TabIndex = 8;
-            this.BtnSave.Text = "button1";
             this.BtnSave.UseVisualStyleBackColor = true;
             // 
             // TxtPayModeObservation
