@@ -164,6 +164,7 @@
   <ItemGroup>
     <Compile Include="Models\IPayModeRepository.cs" />
     <Compile Include="Models\PayModeModel.cs" />
+    <Compile Include="Presenters\Common\ModelDataValidation,.cs" />
     <Compile Include="Presenters\MainPresenter.cs" />
     <Compile Include="Presenters\PayModePresenter.cs" />
     <Compile Include="Program.cs" />
@@ -214,7 +215,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\salida.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\search-small.png" />
   </ItemGroup>
